@@ -37,6 +37,4 @@ app.get('/JS', (req, res)=>{
 /* SERVIDOR */
 const PORT= process.env.PORT || 3000
 
-app.listen(PORT, (req,res)=>{
-    console.log('listening to port http://localhost:'+ PORT)
-})
+app.listen(PORT, ()=>{ console.log('Server running at '+ PORT)})
