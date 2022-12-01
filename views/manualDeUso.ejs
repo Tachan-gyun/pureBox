@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Include Head con CSS -->
+    <%- include("./partials/head") %>
+
+    <title>PureBox</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <%- include("./partials/header") %>
+
+    <!--Barra de navegacion celular-->
+    <%- include("./partials/bottomNav.ejs") %>
+
+    <!-- Centro del body -->
+    <main>
+      <div class="main-container">
+        <h1>Manual de Uso</h1>
+          <div class="box">
+            <img src="/img/caja3.jpg" alt="DiseñoCaja" />
+            <h2>Diseño</h2>
+            <p>La caja esta conformada por dos cuadrados. El de mayor tamaño es donde se encuentra la luz UV encargada de la desinfeccion.
+              
+            </p>
+          </div>
+          <div class="darkbox">
+            <h2>Como abrirla</h2>
+            <p></p>
+          </div>
+      </div>
+    </main>
+    <!-- Footer -->
+
+    <%- include("./partials/footer") %>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
