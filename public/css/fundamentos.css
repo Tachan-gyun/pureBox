@@ -167,6 +167,10 @@ p{
     font-size: 20pt;
     text-align: center;
 }
+.darkbox p{
+    color: #C2C9E3;
+    font-size: 12pt;
+}
 
 .info{
     display: flex;
@@ -228,7 +232,7 @@ footer p:hover{
 
 /*MOBILE FIRST*/
 
-@media(min-width:425px){
+@media(min-width:375px){
 
 
 
