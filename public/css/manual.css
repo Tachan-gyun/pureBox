@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family:'Gentium Book Basic', serif;
     text-decoration: none;
-    text-transform: capitalize; /* Esto muestra un texto con la primera letra de cada palabra en mayúsculas. */
+     /* Esto muestra un texto con la primera letra de cada palabra en mayúsculas. */
     transition: all .2s linear;
 }
 
@@ -145,7 +145,7 @@ p{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.474);
     margin: 20px;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .box p{
     padding-right: 5%;
@@ -251,14 +251,16 @@ footer p:hover{
 
 .box{
     flex-direction: column;
-    height: 175vh;
+    height: auto;
 }
 
 .lightbox{
     flex-direction: column;
-    height: 115vh;
+    height: auto;
 }
-
+li{
+    font-size: 15pt;
+}
 
 .diseñocaja{
     height: 150px;
@@ -317,12 +319,12 @@ footer{
 .box{
     display: flex;
     flex-direction: row;
-    height: 60vh;
+    
 }
 
 .lightbox{
     flex-direction: row;
-    height: 60vh;
+    
 }
     .main-container{
         margin-top: 30px;

@@ -234,13 +234,10 @@ footer p:hover{
 
 @media(min-width:375px){
 
-
-
-.header-container p{
+    .header-container p{
     font-size: 12px;
    text-align: center
 }
-
 
 .main-container{
     margin-bottom: 150px;
@@ -249,17 +246,23 @@ footer p:hover{
 
 .box{
     flex-direction: column;
-    height: 110vh;
+    height: auto;
 }
+.darkbox{
+    flex-direction: column;
+    height: auto;
+}
+
 
 .lightbox{
     flex-direction: column;
-    height: 95vh;
+    height: auto;
 }
 
 
 .diseñocaja{
-    height: 150px;
+    height: auto;
+    width: 90%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -313,7 +316,14 @@ footer{
     }
 .box{
     display: flex;
-    
+}
+ .darkbox{
+    flex-direction: row;   
+}
+
+.diseñocaja{
+    height: 50%;
+    width: 25%;
 }
     .main-container{
         margin-top: 30px;
